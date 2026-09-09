@@ -5,8 +5,8 @@ public class Motocicleta extends Veiculo{
 
     @Override
     public double calcularCustoViagem(double distancia) {
-        if (getCustoPorKm() <= 0){
-            System.out.println("O custo por km não pode ser menor ou igual a 0");
+        if (distancia <= 0){
+            System.out.println("A distância não pode ser menor ou igual a 0");
         }
         return distancia * getCustoPorKm();
     }
