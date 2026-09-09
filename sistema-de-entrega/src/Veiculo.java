@@ -87,7 +87,7 @@ public abstract class Veiculo {
         return this.modelo;
     }
 
-    private double getCustoPorKm(){
+    public double getCustoPorKm(){
         return this.custoPorKm;
     }
 
